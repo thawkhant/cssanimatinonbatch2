@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Keyframe Intro</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		div{
+			width: 150px;
+			height: 150px;
+		background-color: red;
+
+			/*animation-name: myani;
+			animation-duration: 5s;
+			animation-fill-mode: forwards;*/
+			/*animation-iteration-count: 3;*/
+			/*animation-iteration-count: infinite;*/
+
+			/*animation-timing-function: ease;
+			animation-timing-function: ease-in;
+			animation-timing-function: ease-out;
+			animation-timing-function: ease-in-out;
+			animation-timing-function: linear;*/
+
+			/*animation-direction: normal;*/
+			/*animation-direction: reverse;*/
+
+			/*animation-iteration-count: infinite;*/
+			/*animation-direction: alternate;*/
+			/*nimation-direction: alternate-reverse;
+
+
+			/*SHORT HAND*/
+			/*         name du itc ft dir dl*/
+			animation: myani 3s 2 linear alternate 2s;
+
+
+		}
+
+		@keyframes myani{
+			0%{
+				transform: translateX(500px);
+
+			}
+
+			50%{
+				transform: translateX(1000px);
+
+			}
+
+			100%{
+				transform: translate(1000px,500PX);
+
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
